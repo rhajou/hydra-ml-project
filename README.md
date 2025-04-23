@@ -1,7 +1,6 @@
 # hydra-ml-project
 
-# Setup your venv environment
-
+## Steps
 1. create the environment and activate it 
 ```
 python -m venv .venv
