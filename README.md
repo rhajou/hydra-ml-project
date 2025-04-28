@@ -1,5 +1,9 @@
 # hydra-ml-project
 
+## Getting started: 
+To make your learning curve smoother:
+- Start with the `hydra-only` branch: Get comfortable with Hydra’s basics and structure.
+- Then move to the `hydra-pydantic` branch: See how to supercharge your configuration handling with Pydantic validation on top of Hydra
 ## Steps
 1. create the environment and activate it 
 ```
