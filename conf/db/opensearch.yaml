@@ -1,4 +1,0 @@
-hosts: "http://localhost:9200"
-use_ssl: True
-verify_certs: False
-http_auth: "admin:admin"

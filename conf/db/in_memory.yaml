@@ -1,0 +1,2 @@
+_target_: haystack.document_stores.in_memory.InMemoryDocumentStore # this is to specify which class should be used to instatiate this object
+embedding_similarity_function: cosine

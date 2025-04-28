@@ -1,0 +1,8 @@
+# this is to specify which class should be used to instatiate this object
+_target_: haystack_integrations.document_stores.opensearch.OpenSearchDocumentStore 
+
+# arguments
+hosts: "http://localhost:9200"
+use_ssl: True
+verify_certs: False
+http_auth: "admin:admin"

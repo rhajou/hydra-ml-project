@@ -1,5 +1,6 @@
 defaults:
   - generator: gemini_flash_2
-  - db: opensearch
+  - db: open_search
+  - prompts: template_v0
 
 query: ??? # This means that this attribute has no default value and it must be passed by the user

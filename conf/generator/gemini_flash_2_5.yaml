@@ -1,3 +1,6 @@
+_target_: haystack.components.generators.chat.OpenAIChatGenerator # this is to specify which class should be used to instatiate this object
 api_base_url: https://generativelanguage.googleapis.com/v1beta/openai/
 model: "gemini-2.5-flash-preview-04-17"
-api_key: ${oc.env:GEMINI_API_KEY}
+api_key:
+    _target_: haystack.utils.Secret.from_token
+    _args_: ["${oc.env:GEMINI_API_KEY}"]
